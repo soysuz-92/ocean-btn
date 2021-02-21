@@ -8,5 +8,5 @@ chrome_options.add_argument("--disable-dev-shm-usage")
 chrome_options.add_argument("--no-sandbox")
 driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
 
-driver.get("https://www.google.com")
+driver.get("https://app.bancor.network/eth/protection/stake/add/single/0xCDfF066eDf8a770E9b6A7aE12F7CFD3DbA0011B5")
 print(driver.page_source)
